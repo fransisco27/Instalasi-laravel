@@ -1,0 +1,30 @@
+Nama: Fransisco Allagan
+Kelas: XII RPL 2
+PBO
+...
+Langkah-Langkah instalasi Laravel menggunakan composer di Windows:
+..
+
+1.Pertama kita harus memiliki 2 software pendukung yaitu: ~Xampp dan ~Composer
+  Jika belum menginstall Composer kita bisa menginstalnya terlebih dahulu dengan mengunjungi website resmi: "getcomposer.org"
+
+2.Jika sudah menginstall composer, dan ingin tahu bagaimana cara melihat si composer sudah terinstall atau belum? 
+  Caranya adalah pergi ke Windows dan ketik "CMD" (Command Prompt) lalu di dalam CMD ketik kan "Composer" Lalu tekan Enter.
+
+3.Jika setelah melakukan perintah di atas dan sudah ada Logo "COMPOSER" di terminal/Cmd maka Composer sudah terpasang/terinstall dalam windows.
+
+4.Lalu setelah berhasil menginstall Composer, langsung saja untuk menginstall Laravel nya. Caranya: Masuk dulu ke folder Xampp-Htdocs: 
+  "C:\user\TinkPad>" (Misal CMd saya sebelumnya begini) Lalu kita pindah agar lokasi penyimpanan berubah sesuai kita inginkan: "C:\user\TinkPad> "cd\xampp\htdocs"
+  Lalu tekan Enter maka akan berubah menjadi "C:\xampp\htdocs>".
+
+5.Lalu jika sudah langsung kita ketikan code "composer create-project --prefer-dist laravel/laravel install laravel(Nama Folder)". Setelah itu tekan Enter dan tunggu sampai proses penginstalan benar-benar selesai.
+  Biasanya memakan waktu 5-10 menit tergantung dari Laptop masing-masing.
+
+6.Jika sudah success menginstal Laravel tsb, maka langsung saja ke tahap pengecekan: ada 2 cara yaitu: ~Menggunakan xampp, dan ~meminta url di Cmd
+  ~Menggunakan Xampp: Nyalakan terlebih dahulu xampp lalu ketik start "Apache dan MySql" Jika sudah langsung saja browser "localhost/installaravel(nama folder)/public/"
+  ~Dengan URL: arahkan terlebih dahulu cmd menuju direktori yang telah dibuat sebelumnya, Lalu masukkan perintah: "php artisan serve".
+  Jika muncul tulisan Laravel development server started pada Command Prompt atau Terminal, langkah selanjutnya adalah membuka link yang telah disediakan oleh Laravel secara default.
+  ..
+Maka nantinya kita akan menuju tampilan browser bertuliskan "Laravel" itu tandanya Laravel Berhasil diinstal.
+
+Lebih detailnya lihat video Youtube cara menginstal Laravel, Link Youtube: https://youtu.be/Z7fdo3m3kBk
